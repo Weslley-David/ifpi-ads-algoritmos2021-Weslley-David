@@ -7,20 +7,13 @@ prestações, de acordo com as regras acima. */
 const input = require('prompt-sync')()
 
 // Entrada
-const valor_produto = input('Indique um valor em R$: ')
 let entrada, parcelamento;
+const valor_produto = Number(input('Indique um valor em R$: '))
 // Processamento
-if (valor_produto%3 == 0) {
-        parcelamento = valor_produto/3
+    parcelamento = valor_produto/3
+    entrada = (valor_produto%3) + (parcelamento)
+    Math.floor(parcelamento)
 
 // Saída
-    console.log('valor de parcelamento e entrada (R$): ', parcelamento)
-
-} else {
-    entrada = valor_produto%3
-    parcelamento = (valor_produto - entrada)/3
-
-// Saída
-    console.log('valor de entrada (R$): ', entrada + parcelamento)
+    console.log('valor de entrada (R$): ', entrada)
     console.log('valor de parcelamento (R$): ', parcelamento)
-}
