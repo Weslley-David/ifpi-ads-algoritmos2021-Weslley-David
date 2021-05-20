@@ -12,4 +12,3 @@ resultado_horas = Math.trunc(resultado_horas)
     resultado_minutos = parseFloat((60 * resultado_minutos).toFixed(2))
 // Saída
 console.log(minutos,' minutos equivalem a : ', resultado_horas,' horas e ', resultado_minutos ,'minutos.')
-//console.log(resultado_minutos)
