@@ -1,4 +1,11 @@
 //AINDA NÃO TERMINEI
+/*Olá.
+Há algumas questões que não consegui compreender muito bem. Por motivos de horário acabei não podendo
+esclarecê-las a tempo com o monitor. Tendo em vista minha situação, acabei por achar mais prudente enviar
+o que eu já havia feito e eventualmente atualizar o repositório o mais rápido possível.
+Estou de acordo com sanções válidas ao não cumprimento por completo dessa atividade.
+
+Se eventualmente leu isso, obrigado pela compreenção. Pretendo não decepcionar com o prazo nas próximas listas.*/
 //5. Leia 3 (três) números e escreva-os em ordem crescente.
 const input = require('prompt-sync')()
 function main(){
