@@ -6,7 +6,7 @@ const input = require('prompt-sync')()
 function tipo_triangulo(a1,a2,a3){
     if ((a1 == a2) && (a2 == a3)){
         console.log('triângulo equilátero.')
-    }else if((a1 != a2) && (a2 != a3)){
+    }else if((a1 != a2) && (a2 != a3) && (a1 != a3)){
         console.log('Escaleno')
     }else{
         console.log('Isósceles')
