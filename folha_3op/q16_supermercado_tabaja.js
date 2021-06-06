@@ -1,0 +1,24 @@
+/*15. Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+Até 5 Kg Acima de 5 Kg
+Morango R$ 2,50 por Kg R$ 2,20 por Kg
+Maçã R$ 1,80 por Kg R$ 1,50 por Kg
+Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá
+ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de
+morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.*/
+const input = require('prompt-sync')()
+function main(){
+    // Entrada
+    const tipo_carne = input('indique o tipo de carne (f-filé | a-alcatra | p-picanha): ')
+    const quantidade = Number(input('indique a quantidade de carne(kg):  '))
+    const tipo_pagamento = input('indique o tipo de pagamento (c-cartão | v-á vista): ')
+
+    // Processamento
+    if (tipo_carne == 'f' ){
+        console.log('valor a ser pago: ', quantidade * 4.90)
+    }else if (tipo_carne == 'a' ) {
+        console.log('valor a ser pago: ', quantidade * 5.90)
+    }else{
+        console.log('valor a ser pago: ', quantidade * 6.90)
+    }
+}
+main()
