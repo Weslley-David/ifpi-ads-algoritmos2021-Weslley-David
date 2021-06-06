@@ -8,6 +8,7 @@ function main(){
     // Entrada
     const numero = Number(input('Escreva um número de quatro dígitos: '))
     const raiz = Math.sqrt(numero)
+    
     //Processamento
     if ((raiz - 1) == '1234'){
         console.log('Acesso Permitido')
