@@ -28,11 +28,11 @@ pis = valor_total * 15/100
 
 // Saída
 console.log('Consumo           : ', leitura_resultante,'KWh')
-console.log('Valor Faturado    : ', valor_total)
+console.log('Valor Faturado    : ', valor_total.toFixed(2))
 console.log('Bandeira          : ', vezes_bandeira,'x bandeiras')
-console.log('ICMS              : ', icms)
-console.log('PIS/CONFIS        : ', pis)
-console.log('Taxa de iluminação: ',ilumin_public)
+console.log('ICMS              : ', icms.toFixed(2))
+console.log('PIS/CONFIS        : ', pis.toFixed(2))
+console.log('Taxa de iluminação: ',ilumin_public.toFixed(2))
 
 }
 main()
