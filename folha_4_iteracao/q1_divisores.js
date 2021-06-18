@@ -23,13 +23,13 @@ while(i < quantidade_de_numeros){
 }
 function divisor(divisor){
     let cont = 0
+    console.log('-----------------------------------')
     while(cont <= divisor){
         if(divisor%cont == 0){
 //Saída
             console.log(divisor,' divisível por',cont)
         }
         cont++
-    }
-    console.log('-----------------------------------')
+    }   
 }
 main()
