@@ -1,4 +1,5 @@
 //3. Leia 2 (dois) números, calcule e escreva o mdc (máximo divisor comum) entre os números lidos.
+//ERRO
 const input = require('prompt-sync')()
 function main(){
 let numero_1 = Number(input('Digite um número: '))
@@ -9,8 +10,7 @@ let i = 2;
         if(numero_1%i == 0 && numero_2%i == 0){
             numero_1 = numero_1/i
             numero_2 = numero_2/i
-            resultado = i + i
-            console.log(resultado)
+            resultado = i * i
             i++
         }
         else{
@@ -18,5 +18,6 @@ let i = 2;
         }
         i++
     }
+    console.log('mdc: ',resultado)
 }
 main()
