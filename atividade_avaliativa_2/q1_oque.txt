@@ -1,0 +1,13 @@
+a. Pensamento Computacional = Conjunto comum de conceitos aplicáveis na resolução de problemas,
+sendo assim, útil para descrever soluções a questões de natureza simples ou complexa.
+
+b. Algoritmo = comjunto finito e ordenado de passos que visa efetivar uma tarefa, útil na area Computacional como
+uma forma de instruir máquinas a partir de programação.
+
+c. Programação = atividade que consiste em instruir máquinas através de linguagens de programação para que possam
+realizar uma tarefa.
+
+d. Modularização com uso de Funções = Consiste na ação de isolar uma tarefa específica por meio de funções, 
+tornando possível reduzir a quantidade de linhas em um determinado código, depurá-lo e reutilizá-lo de 
+maneira eficiente.
+
