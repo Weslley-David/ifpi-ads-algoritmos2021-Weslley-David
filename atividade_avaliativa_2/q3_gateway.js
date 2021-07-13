@@ -43,7 +43,7 @@ function main(){
 
 //Saída
     console.log('Valor da compra: ', valor)
-    console.log(`forma de pagamento: ${forma_de_pagamento} Parcelas: (${parcelas} x)`)
+    console.log(`forma de pagamento: ${forma_de_pagamento} | Parcelas: (${parcelas} x)`)
     console.log(`taxa: ${taxa_total.toFixed(2)}`)
     console.log(`valor líquido: ${(valor - taxa_total).toFixed(2)} em ${dias} dias.`)
 

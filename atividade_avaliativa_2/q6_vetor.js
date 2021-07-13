@@ -22,13 +22,13 @@ console.log(`Quantidade Negativos: ${negativo}`)
 console.log(`Se há valores repetidos: ${repetidos}`)
 
 }
-function media_valores(vetor){
+function media_valores(vetor){//realiza a média do valores
     soma = 0
     for (let i = 0; i < vetor.length; i++) {
         soma = soma + vetor[i]
     }
     media = soma/vetor.length
-    return media
+    return media.toFixed(2)
     
 }
 
@@ -52,7 +52,7 @@ function maior_valor(vetor){
 
 function quant_positivos(vetor){
     let positivo = 0
-    for(i = 0; i < vetor.length; i++){//maior valor
+    for(i = 0; i < vetor.length; i++){//confere quantidade de positivos
        if (vetor[i] > 0) {
            positivo = positivo + 1
        }
@@ -63,7 +63,7 @@ function quant_positivos(vetor){
 
 function quant_negativos(vetor){
     let negativo = 0
-    for(i = 0; i < vetor.length; i++){//maior valor
+    for(i = 0; i < vetor.length; i++){//confere quantidade de negativos
        if (vetor[i] < 0) {
            negativo = negativo + 1
        }
@@ -74,7 +74,7 @@ function quant_negativos(vetor){
 
 function tem_repetido(vetor){
     status = 'não'
-    for(i = 0; i < vetor.length; i++){//maior valor
+    for(i = 0; i < vetor.length; i++){//confere repetição
        for (let i2 = 0; i2 < vetor.length; i2++) {
            if((i != i2) && (vetor[i] == vetor[i2])){
                status = 'sim'
