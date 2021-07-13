@@ -14,4 +14,5 @@ if(tempo[2] == ':'){
 }
 console.log(`${hora} horas, ${minuto} minutos e ${segundo} segundos`)
 }
+
 main()

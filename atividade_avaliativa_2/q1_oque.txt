@@ -10,4 +10,3 @@ realizar uma tarefa.
 d. Modularização com uso de Funções = Consiste na ação de isolar uma tarefa específica por meio de funções, 
 tornando possível reduzir a quantidade de linhas em um determinado código, depurá-lo e reutilizá-lo de 
 maneira eficiente.
-

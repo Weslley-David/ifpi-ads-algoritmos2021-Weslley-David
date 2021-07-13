@@ -58,7 +58,6 @@ function quant_positivos(vetor){
        }
     }
     return positivo
-    
 }
 
 function quant_negativos(vetor){

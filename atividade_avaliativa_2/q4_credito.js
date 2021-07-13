@@ -31,6 +31,7 @@ function main(){
         if(stop == true){
             break
         }
+        
     }
     console.log(`Quantidade de meses para quitação: ${mes} `)
     console.log(`Ultima parcela: ${emprestimo.toFixed(2)}`)
